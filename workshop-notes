@@ -1,0 +1,64 @@
+D3
+- framework
+- https://github.com/d3/d3
+
+React & D3 together
+- componentization
+  - reusability
+  - structure at a glance
+- better testing/debugging
+  - AirBnB https://github.com/airbnb/enzyme
+
+
+React
+- virtual DOM (under the hood)
+- redux (state management)
+- key (needs to be unique to the list not the whole application)
+- use production version of react to get it to load faster
+  - https://facebook.github.io/react/downloads.html
+  - webpack.DefinePlugin - CHECK on Pricing Page!!
+  - https://reactjsnews.com/how-to-make-your-react-apps-10x-faster
+
+D3
+ - handles everything as an Object
+
+ - scales (functions that map a domain to a range)
+ - array operations
+ - data loading
+
+ - good parts
+  - selections (select dom nodes)
+    - similar to jquery selections
+    - you don't really need them when using react
+  - axes
+  - shapes
+  - transitions
+
+
+- D3 does props
+  - react handles the document
+  - d3 functions calculate prop values
+  - make sure d3 inner state stays in sync
+- blackbox component (react acts a wrapper)
+  -
+webpack, gulp, babel
+
+redux - https://github.com/reactjs/redux
+immutable JS
+flux
+
+webpack - hot loading
+
+<g>
+  - https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g
+
+
+ES6
+=>
+...
+let
+
+
+
+
+shouldComponentUpdate & other lifecycle components can help with performance and render on big tables
